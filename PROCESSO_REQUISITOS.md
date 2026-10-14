@@ -26,7 +26,7 @@ O processo é iterativo e incremental: os requisitos são levantados, analisados
 
 | Membro | Papel | Responsabilidades |
 |--------|-------|-------------------|
-| [Nome] | Gerente do projeto | Coordena o Kanban, acompanha os marcos e valida a entrega final |
+| Kaique Caio | Gerente do projeto | Coordena o Kanban, acompanha os marcos e valida a entrega final |
 | [Nome] | Responsável pela elicitação | Roteiros e termo de consentimento; organiza entrevistas e questionários |
 | [Nome] | Analista do sistema análogo | Levanta e sintetiza as funcionalidades do Lattice |
 | [Nome] | Modelador de processos | Modela o processo atual em BPMN e identifica as dores |
