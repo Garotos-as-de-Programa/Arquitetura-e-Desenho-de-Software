@@ -1,4 +1,4 @@
-# Processo de Engenharia de Requisitos
+# [Marco 1] Processo de Engenharia de Requisitos
 
 **Projeto:** Sistema de Gestão de Competências
 **Etapa:** 1ª Etapa – Levantamento de Requisitos
@@ -85,22 +85,22 @@ A prioridade considera a frequência da demanda nas fontes, as funcionalidades m
 
 ### 5.1 Identificação e numeração
 Cada requisito recebe um identificador único e permanente:
-- **RF01, RF02, ...** – requisitos funcionais;
-- **RNF01, RNF02, ...** – requisitos não funcionais (desempenho, usabilidade, segurança, privacidade e anonimato, conformidade com a LGPD, portabilidade para mobile, entre outros, usando as características da ISO/IEC 25010 como guia);
-- **RN01, RN02, ...** – regras de negócio e restrições do domínio.
+- **RF-001, RF-002, ...** – requisitos funcionais;
+- **RNF-001, RNF-002, ...** – requisitos não funcionais (desempenho, usabilidade, segurança, privacidade e anonimato, conformidade com a LGPD, portabilidade para mobile, entre outros, usando as características da ISO/IEC 25010 como guia);
+- **RN-01, RN-02, ...** – regras de negócio e restrições do domínio.
 
 Um identificador nunca é reutilizado. Requisitos removidos ficam marcados como "cancelado".
 
 ### 5.2 Requisitos funcionais
-Escritos como **Histórias de Usuário**, para manter o foco no valor entregue:
+Podem ser descritos como **Histórias de Usuário** (nas sínteses preliminares) ou como **enunciados declarativos verificáveis** (na Lista Geral Consolidada e na Especificação IEEE 830 / EOR), mantendo o foco no valor entregue e na testabilidade:
 
-`Como [perfil de usuário], eu quero [ação/funcionalidade] para que [motivo/valor].`
+`Como [perfil de usuário], eu quero [ação/funcionalidade] para que [motivo/valor].` ou `O sistema deve permitir [ação/funcionalidade] conforme [regras/critérios].`
 
-Cada requisito funcional contém: identificador, história, critérios de aceitação, prioridade (MoSCoW) e fontes.
+Cada requisito funcional contém: identificador, título/requisito, descrição, critérios de aceitação, prioridade (MoSCoW) e origem/fontes.
 
 ### 5.3 Requisitos não funcionais e restrições
 Escritos de forma objetiva e **verificável**, com critério mensurável sempre que possível.
-Exemplo: "RNF03 – O sistema não deve exibir ao gestor a identidade de respondentes anônimos em nenhum relatório."
+Exemplo: "RNF-005 – Não expor identidade de respondentes a gestores ou colegas em relatórios e interfaces."
 
 ### 5.4 Critérios de aceitação
 Lista de condições claras e testáveis que devem ser cumpridas para o requisito ser considerado atendido, evitando termos vagos como "rápido", "fácil" ou "adequado" sem métrica.
@@ -159,15 +159,15 @@ Colunas: **Backlog → A fazer → Em andamento → Em revisão → Concluído**
 ### 8.5 Estrutura do repositório
 
 ```
-/planejamento          Kanban (PDF e link)
-/processo              Este documento
-/pesquisa-documental   LGPD, ISO/IEC 25010 e outras normas
-/entrevistas           Roteiro, termo de consentimento, transcrições, síntese
-/questionarios         Modelo, respostas, síntese
-/sistema-analogo       Funcionalidades do Lattice e síntese
-/bpmn                  Processo atual e dores
-/requisitos            Lista geral e matriz de rastreabilidade
-README.md
+/processo              Definição do processo de requisitos (Marco 1)
+/pesquisa-documental   LGPD, ANPD, LBI, ISO/IEC 25010 e outras normas (Marco 1)
+/entrevistas           Termo de consentimento, transcrições (Marco 2) e síntese (Marco 3)
+/questionarios         Respostas dos questionários (Marco 2) e síntese (Marco 3)
+/sistema-analogo       Engenharia reversa e requisitos do Lattice (Marco 2)
+/bpmn                  Modelagem BPMN do processo atual e dores (Marco 2)
+/consolidacao          Consolidação das sínteses de elicitação (Marco 3)
+/requisitos            Lista geral, Visão, Casos de Uso UML e detalhados, Protótipos, IEEE 830/EOR e Matrizes (Marco 3)
+README.md              Índice geral do projeto e dos marcos
 ```
 
 ## 9. Cronograma e Marcos
@@ -190,6 +190,4 @@ README.md
 7. Lista geral de requisitos;
 8. Matriz de rastreabilidade (requisitos × fontes).
 
-Complementares: pesquisa documental, modelo BPMN e termo de consentimento.
-=======
 Complementares: pesquisa documental, modelo BPMN e termo de consentimento.
