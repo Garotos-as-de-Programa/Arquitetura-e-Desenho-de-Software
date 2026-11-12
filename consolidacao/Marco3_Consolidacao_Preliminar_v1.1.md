@@ -1,4 +1,4 @@
-# PROJETO LATTICE PEOPLE PLATFORM
+# [Marco 3] PROJETO LATTICE PEOPLE PLATFORM — Consolidação Preliminar (v1.1)
 
 **Entregáveis:** Consolidação da Elicitação e Lista Geral de Requisitos\
 **Responsável:** Clara\
@@ -234,3 +234,4 @@ Os dois respondentes concordaram em não exibir ranking de desempenho: Q1 o cons
 |--------|------|-----------|
 | 1.0 | 10/11/2026 | Versão inicial, com base na pesquisa documental e em referências de plataformas de gestão de pessoas. |
 | 1.1 | 11/11/2026 | Inclusão dos questionários Q1 e Q2: fontes na introdução; confirmação dos stakeholders; necessidades 13 a 16 e situação de cada necessidade; confirmação dos problemas e novos problemas observados; expectativas de RH, gestor, colaborador e diretoria; observações de LGPD e de requisitos não funcionais; seção 9. O conteúdo da versão 1.0 foi mantido. |
+| 2.0 | 12/11/2026 | Consolidação final cruzada com as entrevistas (E1 e E2), questionários (Q1 e Q2), pesquisa documental (PD) e sistema análogo Lattice (LA), gerando os artefatos finais `Marco3_Consolidacao_da_Elicitacao_Lattice.docx` e `Marco3_Lista_Geral_de_Requisitos_Lattice.docx` (RF-001 a RF-051 e RNF-001 a RNF-016). |

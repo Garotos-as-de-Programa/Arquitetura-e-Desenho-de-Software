@@ -1,4 +1,4 @@
-# Questionário 2 (Q2) – Respostas
+# [Marco 2] Questionário 2 (Q2) – Respostas
 
 **Instrumento:** `Questionario-Gestao-de-Competencias.md` (v1.0)
 **Data da resposta:** 11/11/2026
